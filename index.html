@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labirinto A*</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Editor e Protótipo de Agente Inteligente</h1>
+    <canvas id="mazeCanvas"></canvas>
+    
+    <div class="controls">
+        <button id="autoBtn">▶ Iniciar Automático</button>
+        <button id="stepBtn">⏯ Passo a Passo</button>
+        <button id="resetBtn">↺ Reiniciar</button>
+    </div>
+    <div class="controls editor-controls">
+        <button id="editBtn">✏️ Modo Edição (OFF)</button>
+        <button id="generateCodeBtn">📄 Gerar Código</button>
+    </div>
+
+    <p><b>Legenda:</b> 
+        <span style="color: #4caf50;">■</span> Início | 
+        <span style="color: #f44336;">■</span> Fim | 
+        <span style="color: #212121;">■</span> Parede | 
+        <span style="color: #81d4fa;">■</span> Nós abertos | 
+        <span style="color: #ffcc80;">■</span> Nós fechados | 
+        <span style="color: #42a5f5;">■</span> Caminho Final
+    </p>
+    <script src="script.js"></script>
+</body>
+</html>

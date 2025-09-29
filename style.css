@@ -1,0 +1,62 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+
+canvas {
+    border: 2px solid #333;
+    margin-top: 20px;
+}
+
+p {
+    margin-top: 20px;
+}
+
+.controls {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resetBtn {
+    background-color: #6c757d;
+}
+
+#resetBtn:hover {
+    background-color: #5a6268;
+}
+
+.editor-controls {
+    margin-top: 10px;
+}
+
+#editBtn.active {
+    background-color: #28a745;
+}
+
+#editBtn.active:hover {
+    background-color: #218838;
+}
+
+canvas.edit-mode {
+    cursor: pointer;
+}
